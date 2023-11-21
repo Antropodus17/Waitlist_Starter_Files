@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    color: darkslateblue;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
