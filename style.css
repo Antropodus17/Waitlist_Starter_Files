@@ -1,14 +1,14 @@
 html{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
     height: 100%;
     width: 80%;
@@ -26,16 +26,18 @@ main{
     display: flex;
     flex-flow: row, wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 1.4em;
 }
 main>img{
-    max-width: 60%;
-    max-height: 35%;
+    width: 30%;
+    height: 80%;
 }
 main>article{
-    max-width: 40%;
-    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60%;
     
 }
 h5{
@@ -46,16 +48,18 @@ h5{
     border: 3px solid darkslateblue;
     background-color: darkslateblue;
     width: 65%;
+    height:10%;
 }
 h1{
     font-size: 2.5em;
     color: darkslateblue;
+    height: 15%;
 }
 form{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 4%;
+    height: 20%;
     align-items: center;
 }
 input[type=email]{
@@ -79,10 +83,11 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+
 }
 header section{
     display: flex;
-    width: 30%;
+    width: 35%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
